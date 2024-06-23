@@ -16,4 +16,4 @@ For training, the wall was positioned at four different standoff distances: 0.5 
 </p>
 
 ![alt_text](./assets/Lab.png)
-**Fig. 1.** SINet architecture with different network components for crowd density map estimation.
+**Fig. 1.** Stepped-frequency radar system for data collection, geometry map of a TWRI, and beamformed image of the scene..
