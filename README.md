@@ -24,6 +24,8 @@ For training, the wall was positioned at four different standoff distances: 0.5 
 
 ## Results
 
+![alt_text](./assets/Lab.png)
+**Fig. 1.** Stepped-frequency radar system for data collection and geometry maps of TWRI.
 
 ![alt_text](./assets/beamformed_images.png)
 **Fig. 2.** Beamformed images of (a) two-target scene and (b) three-target scene using the collected raw stepped-frequency data.
