@@ -14,5 +14,10 @@ In the Radar Imaging Laboratory of the Centre for Signal and Information Process
 <p align="justify"> 
 For training, the wall was positioned at four different standoff distances: 0.5 m, 1.0 m, 1.2 m, and 1.5 m. At each standoff distance, the horn antenna was operated at various heights, ranging from 0.5 m to 1 m. For each combination of standoff distance and antenna height, a set of 41 radar signals was acquired. Additionally, several Through-the-Wall Radar Imaging (TWRI) scenes, containing a varying number of targets from one to four dihedrals, were scanned.
 </p>
+<br />
+
 ![alt_text](./assets/Lab.png)
-**Fig. 1.** SINet architecture with different network components for crowd density map estimation.
+**Fig. 1.** Stepped-frequency radar system for data collection, geometry map of a TWRI, and beamformed image of the scene..
+
+
+## Results
