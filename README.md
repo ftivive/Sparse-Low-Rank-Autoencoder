@@ -26,7 +26,7 @@ The proposed sparse autoencoder with low-rank projection was trained on a datase
 <br />
 
 ![Alt text](./assets/raw_imgs.png)
-<b>Fig. 2.</b> Beamformed images of (a) two-target scene and (b) three-target scene using the collected raw stepped-frequency data.
+**Fig. 2.** Beamformed images of (a) two-target scene and (b) three-target scene using the collected raw stepped-frequency data.
 
 
 
