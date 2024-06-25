@@ -26,7 +26,7 @@ The proposed sparse autoencoder with low-rank projection was trained on a datase
 <br />
 
 
-![alt_text](./assets/Lab.png)
+![alt_text](./assets/raw_imgs.png)
 **Fig. 1.** Stepped-frequency radar system for data collection and geometry maps of TWRI.
 
 
