@@ -48,6 +48,6 @@ If you find this work or code is helpful for your research, please cite:
   doi={10.1109/TGRS.2020.3004331}}
   ```
 ## Reference
-F. H. C. Tivive and A Bouzerdoum, *Clutter removal in through the wall radar imaging using sparse autoencoder with low rank projection,* IEEE Trans. of on Geoscience and Remote Sensing, vol. 59, no. 2, pp. 1118-1129, 2021.
+F. H. C. Tivive and A Bouzerdoum, *Clutter removal in through the wall radar imaging using sparse autoencoder with low rank projection,* IEEE Transactions of on Geoscience and Remote Sensing, vol. 59, no. 2, pp. 1118-1129, 2021.
 
 
