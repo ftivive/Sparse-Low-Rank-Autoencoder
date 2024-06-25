@@ -23,13 +23,31 @@ For training, the wall was positioned at four different standoff distances: 0.5 
 <p align="justify">
 The proposed sparse autoencoder with low-rank projection was trained on a dataset comprising 7,298 stepped-frequency radar signals. For evaluation, two test sets, each containing 41 radar signals, were recorded. The first test set was acquired from a scene with two dihedrals positioned behind a wall, while the second test set originated from a scene that included three dihedrals. Figure 2 displays the beamformed images generated using the raw radar data, and Figure 3 presents the images reconstructed from the radar signals after denoising with the proposed method.
 </p>
-
-
+<br /> 
 ![Alt text](./assets/raw_imgs.png)
 <br /> 
 **Fig. 2.** Beamformed images of (a) two-target scene and (b) three-target scene using the collected raw stepped-frequency data.
-
-
+<br /> 
 ![Alt text](./assets/bm_imgs.png)
 <br /> 
 **Fig. 3.** Beamformed images of (a) two-target scene and (b) three-target scene using signals denoised with the proposed method.
+
+
+
+## Citation
+If you find this work or code is helpful for your research, please cite:
+```
+@ARTICLE{,
+  author={F. H. C. Tivive and A. Bouzerdoum},
+  journal={IEEE Transactions of on Geoscience and Remote Sensing}, 
+  title={Clutter Removal in Through the Wall Radar Imaging using Sparse Autoencoder with Low Rank Projection}, 
+  year={2021},
+  volume={59},
+  number={2},
+  pages={1118-1129},
+  doi={10.1109/TGRS.2020.3004331}}
+  ```
+## Reference
+F. H. C. Tivive and A Bouzerdoum, *Clutter removal in through the wall radar imaging using sparse autoencoder with low rank projection,* IEEE Trans. of on Geoscience and Remote Sensing, vol. 59, no. 2, pp. 1118-1129, 2021.
+
+
