@@ -24,7 +24,7 @@ For training, the wall was positioned at four different standoff distances: 0.5 
 1. Install Matlab
 
 ## Train and test
-1. The training phase of the sparse low-rank autoencoder comprises two steps: hyperparameter estimation and autoencoder training
+1. The optimization the sparse low-rank autoencoder comprises two steps: hyperparameter estimation and autoencoder training
   
    **Hyperparameter estimation:**  run `hyperparameter_estimation.m`
 
