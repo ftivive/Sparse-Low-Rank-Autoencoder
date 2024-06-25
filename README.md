@@ -26,11 +26,12 @@ For training, the wall was positioned at four different standoff distances: 0.5 
 ## Train and test
 1. The training phase of the sparse low-rank autoencoder comprises two steps: hyperparameter estimation and autoencoder training
   
-**Hyperparameter estimation:**  run `hyperparameter_estimation.m`
-**Autoencoder training:**  run `autoencoder_training.m`
+   **Hyperparameter estimation:**  run `hyperparameter_estimation.m`
+
+   **Autoencoder training:**  run `autoencoder_training.m`
 
 
-2. To test a pretrained SINet network, run the following command:
+3. To test a pretrained SINet network, run the following command:
 
 **Example 1:** `python test.py --input images/test_image.jpg --output images/test_image-output.jpg`
 
