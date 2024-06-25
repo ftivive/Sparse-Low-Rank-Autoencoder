@@ -14,7 +14,7 @@ In the Radar Imaging Laboratory of the Centre for Signal and Information Process
 <p align="justify"> 
 For training, the wall was positioned at four different standoff distances: 0.5 m, 1.0 m, 1.2 m, and 1.5 m. At each standoff distance, the horn antenna was operated at various heights, ranging from 0.5 m to 1 m. For each combination of standoff distance and antenna height, a set of 41 radar signals was acquired. Additionally, several Through-the-Wall Radar Imaging (TWRI) scenes, containing a varying number of targets from one to four dihedrals, were scanned.
 </p>
-<br />
+
 
 ![alt_text](./assets/Lab.png)
 **Fig. 1.** Stepped-frequency radar system for data collection and geometry maps of TWRI.
@@ -26,7 +26,7 @@ For training, the wall was positioned at four different standoff distances: 0.5 
 <p align="justify">
 The proposed sparse autoencoder with low-rank projection was trained on a dataset comprising 7,298 stepped-frequency radar signals. For evaluation, two test sets, each containing 41 radar signals, were recorded. The first test set was acquired from a scene with two dihedrals positioned behind a wall, while the second test set originated from a scene that included three dihedrals. Figure 2 displays the beamformed images generated using the raw radar data, and Figure 3 presents the images reconstructed from the radar signals after denoising with the proposed method.
 </p>
-<br />
+
 
 ![alt_text](./assets/raw_imgs.png)
 **Fig. 2.** Beamformed images of (a) two-target scene and (b) three-target scene using the collected raw stepped-frequency data.
