@@ -33,7 +33,7 @@ For training, the wall was positioned at four different standoff distances: 0.5 
 
 3. To test a pretrained sparse autoencoder, run the following Matlab script:
 
-**Example 1:** ` run 'test.m'
+**Example 1:**  run `test.m`
 
 
 
