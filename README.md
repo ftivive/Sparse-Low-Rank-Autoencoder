@@ -31,9 +31,9 @@ For training, the wall was positioned at four different standoff distances: 0.5 
    **Autoencoder training:**  run `autoencoder_training.m`
 
 
-3. To test a pretrained SINet network, run the following command:
+3. To test a pretrained sparse autoencoder, run the following Matlab script:
 
-**Example 1:** `python test.py --input images/test_image.jpg --output images/test_image-output.jpg`
+**Example 1:**  run `test.m`
 
 
 
