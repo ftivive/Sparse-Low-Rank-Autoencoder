@@ -5,19 +5,18 @@ savefilename = 'TWRI_Image';
 load test_data.mat;
 %
 raw_data          = normalize_atoms(raw_data);
-denoise_data      = V * sig_func(W * (Target_scene1 - P * raw_data)); 
+denoise_data      = V * Q_f(W * (raw_data - P * raw_data), 1); 
 % detail of the scene
 tol               = -30;
 TWI.Z             = 4.5; 
 TWI.Zoff          = 1.5;
 TWI.No_R_px       = 100;
 TWI.No_C_px       = 100;
-scene             = Scene_Design(TWI);     
+scene             = scene_design(TWI);     
 X_axis            = scene{1}(1,:);
 Z_axis            = scene{2}(:,1);   
 % perform delay and sum beamforming
-TWI.Received_Data = denoise_data;
-S                 = ds_2dbeamforming(TWI, TWI.Received_Data, scene);
+S                 = ds_2dbeamforming(TWI, denoise_data);
 TWI_image         = abs(reshape(S, size(scene{1})));
 % parameters for plots
 width  = 2;      % Width in inches
@@ -50,5 +49,5 @@ imagesc(X_axis, Z_axis, 20*log10(TWI_image)); axis xy, axis image,  grid on;  co
 caxis([tol, 0]);
 xlabel('Crossrange (m)'); ylabel('Downrange (m)'); 
 fig = gcf;
-print(savefilename, '-jpg', '-r600');
+print(savefilename, '-dpng', '-r600');
 

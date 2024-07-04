@@ -12,9 +12,9 @@ tol       = 1e-5; % Error tolerance
 n         = size(Train_Tg_sig,1);
 Ds        = conj(dftmtx(n)) / sqrt(n);
 
-lambda       = 1e-1;
-beta         = 1e-3;
-gamma        = 1e-1;
+lambda       = 10^(-lambda);
+beta         = 10^(-beta);
+gamma        = 10^(-gamma);
 
 
 [P, V, W] = SLRAE(Train_Tg_sig, Train_Bk_sig, Ds, lambda, beta, gamma, no_elements, iter_ct, tol, tfc, 'yes');
