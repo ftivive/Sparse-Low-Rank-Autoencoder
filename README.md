@@ -19,6 +19,25 @@ For training, the wall was positioned at four different standoff distances: 0.5 
 ![alt_text](./assets/Lab.png)
 **Fig. 1.** Stepped-frequency radar system for data collection and geometry maps of TWRI.
 
+
+## Installation
+1. Install Matlab
+
+## Train and test
+1. The optimization the sparse low-rank autoencoder model comprises two steps: hyperparameter estimation and autoencoder training
+  
+   **Hyperparameter estimation:**  run `hyperparameter_estimation.m`
+
+   **Autoencoder training:**  run `autoencoder_training.m`
+
+
+3. To test a pretrained SINet network, run the following command:
+
+**Example 1:** `python test.py --input images/test_image.jpg --output images/test_image-output.jpg`
+
+
+
+
 ## Results
 <p align="justify">
 The proposed sparse autoencoder with low-rank projection was trained on a dataset comprising 7,298 stepped-frequency radar signals. For evaluation, two test sets, each containing 41 radar signals, were recorded. The first test set was acquired from a scene with two dihedrals positioned behind a wall, while the second test set originated from a scene that included three dihedrals. Figure 2 displays the beamformed images generated using the raw radar data, and Figure 3 presents the images reconstructed from the radar signals after denoising with the proposed method.
@@ -48,6 +67,6 @@ If you find this work or code is helpful for your research, please cite:
   doi={10.1109/TGRS.2020.3004331}}
   ```
 ## Reference
-F. H. C. Tivive and A Bouzerdoum, *Clutter removal in through the wall radar imaging using sparse autoencoder with low rank projection,* IEEE Trans. of on Geoscience and Remote Sensing, vol. 59, no. 2, pp. 1118-1129, 2021.
+F. H. C. Tivive and A Bouzerdoum, *Clutter removal in through the wall radar imaging using sparse autoencoder with low rank projection,* IEEE Transactions of on Geoscience and Remote Sensing, vol. 59, no. 2, pp. 1118-1129, 2021.
 
 
